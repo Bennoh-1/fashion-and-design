@@ -1,6 +1,10 @@
 # Fashion-and-design
 
-# by Francis kibira
+
+# by Francis kibira 
+ 
+# Description
+This project is a simple responsive fullstack website that leverages the local api made using Ruby Sinatra that is publicly available for use
 
 
 # Requirements
