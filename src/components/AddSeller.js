@@ -11,7 +11,7 @@ const AddSeller = () => {
   
   function handleSubmit(e) {
     e.preventDefault();
-    fetch('http://localhost:9292/sellers', {
+    fetch('https://fashion-and-design-backend.herokuapp.com/sellers', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

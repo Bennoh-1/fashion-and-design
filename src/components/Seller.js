@@ -4,7 +4,7 @@ export default function Sellers() {
   const [sellers, setSellers] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:9292/sellers')
+    fetch('https://fashion-and-design-backend.herokuapp.com/sellers')
       .then((res) => res.json())
       .then((data) => setSellers(data));
   }, []);
